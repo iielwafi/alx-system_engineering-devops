@@ -9,7 +9,7 @@ while [ "$i" -lt 11 ]; do
 
   # print hi in line 9
   if [ "$i" -eq 9 ]; then
-    echo "hi"
+    echo "Hi"
   fi
 
 
