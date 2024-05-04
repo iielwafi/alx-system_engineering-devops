@@ -11,6 +11,7 @@ if [ -e "$file" ]; then
   # checks empty files
   if [ ! -s "$file" ]; then
     echo "school file is empty"
+
   # checks if file is a regular file
   if [ -f "$file" ]; then
     echo "school is a regular file"
